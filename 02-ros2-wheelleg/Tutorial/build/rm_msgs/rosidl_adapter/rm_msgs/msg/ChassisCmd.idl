@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_msgs/msg/ChassisCmd.msg
+// generated code does not contain a copyright notice
+
+
+module rm_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "底盘速度指令（全向移动）")
+    struct ChassisCmd {
+      @verbatim (language="comment", text=
+        "前进方向速度 (m/s)")
+      double vx;
+
+      @verbatim (language="comment", text=
+        "横移方向速度 (m/s)")
+      double vy;
+
+      @verbatim (language="comment", text=
+        "自转角速度 (rad/s)")
+      double wz;
+    };
+  };
+};

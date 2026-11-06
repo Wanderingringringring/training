@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: wheel_leg_bridge
+Version: 0.0.0
+Summary: Wheel_Leg MuJoCo 仿真接入 ROS2 桥接节点
+Maintainer: RM Team
+Maintainer-email: rm@example.com
+License: Apache-2.0
+Requires-Dist: setuptools

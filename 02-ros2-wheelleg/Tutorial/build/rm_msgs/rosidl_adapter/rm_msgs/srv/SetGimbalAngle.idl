@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rm_msgs/srv/SetGimbalAngle.srv
+// generated code does not contain a copyright notice
+
+
+module rm_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "设置云台角度（服务）")
+    struct SetGimbalAngle_Request {
+      double yaw;
+
+      double pitch;
+    };
+    struct SetGimbalAngle_Response {
+      @verbatim (language="comment", text=
+        "是否成功")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "附加信息")
+      string message;
+    };
+  };
+};

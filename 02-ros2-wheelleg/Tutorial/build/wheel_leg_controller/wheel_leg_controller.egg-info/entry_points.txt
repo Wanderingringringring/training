@@ -1,0 +1,2 @@
+[console_scripts]
+wheel_leg_controller = wheel_leg_controller.wheel_leg_node:main

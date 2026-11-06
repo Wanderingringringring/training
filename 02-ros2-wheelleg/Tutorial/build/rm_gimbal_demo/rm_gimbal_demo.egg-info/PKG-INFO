@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rm_gimbal_demo
+Version: 0.0.0
+Summary: 云台服务端/客户端示例：演示服务、参数与 launch 文件
+Maintainer: RM Team
+Maintainer-email: rm@example.com
+License: Apache-2.0
+Requires-Dist: setuptools

@@ -1,0 +1,3 @@
+[console_scripts]
+gimbal_client = rm_gimbal_demo.gimbal_client:main
+gimbal_server = rm_gimbal_demo.gimbal_server:main

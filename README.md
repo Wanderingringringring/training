@@ -74,3 +74,15 @@ git push origin main
 ```
 
 `git fetch upstream` 下载算法组的新内容；`git merge --no-edit upstream/main` 把它加入电脑上的仓库，此时才能在本地看到新作业；`git push origin main` 再把更新上传到自己的 Fork。如果 Git 报错，把运行的命令、完整报错和 `git status` 的输出发给 AI，并说明你想做什么。合并遇到冲突时，先不要推送，更不要强制推送。
+
+
+
+
+conda activate rm_ros2
+source /opt/ros/humble/setup.bash
+echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
+source ~/.bashrc          # 让当前这个终端立即生效
+
+
+        echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
+source ~/.bashrc          # 让当前这个终端立即生效

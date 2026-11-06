@@ -1,0 +1,612 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/home/venom-songyixi/miniforge3/envs/rm_ros2/bin/colcon', 'build', '--symlink-install']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71d7522eef30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71d7522eec60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71d7522eec60>>)
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.143s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_入门/images) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) ignored
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) ignored
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) ignored
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_first_pkg) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_first_pkg) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_first_pkg) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_first_pkg) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_first_pkg) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_first_pkg) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_first_pkg) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_first_pkg) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/my_first_pkg' with type 'ros.ament_python' and name 'my_first_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_timer_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_timer_pkg) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_timer_pkg) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_timer_pkg) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_timer_pkg) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_timer_pkg) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_timer_pkg) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_timer_pkg) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_timer_pkg) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/my_timer_pkg' with type 'ros.ament_python' and name 'my_timer_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_gimbal_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_gimbal_demo) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_gimbal_demo) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_gimbal_demo) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_gimbal_demo) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_gimbal_demo) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_gimbal_demo) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_gimbal_demo) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_gimbal_demo) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/rm_gimbal_demo' with type 'ros.ament_python' and name 'rm_gimbal_demo'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_msgs) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_msgs) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_msgs) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_msgs) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_msgs) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_msgs) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_msgs) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_msgs) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/rm_msgs' with type 'ros.ament_cmake' and name 'rm_msgs'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_tf_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_tf_demo) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_tf_demo) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_tf_demo) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_tf_demo) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_tf_demo) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_tf_demo) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_tf_demo) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/rm_tf_demo) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/rm_tf_demo' with type 'ros.ament_python' and name 'rm_tf_demo'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_bridge) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_bridge) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_bridge) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_bridge) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_bridge) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_bridge) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_bridge) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_bridge) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/wheel_leg_bridge' with type 'ros.ament_python' and name 'wheel_leg_bridge'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_controller) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_controller) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_controller) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_controller) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_controller) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_controller) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_controller) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_controller) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/wheel_leg_controller' with type 'ros.ament_python' and name 'wheel_leg_controller'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_sim) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_sim) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_sim) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_sim) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_sim) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_sim) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_sim) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wheel_leg_sim) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/wheel_leg_sim' with type 'ros.ament_python' and name 'wheel_leg_sim'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(tests) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.192s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg', 'merge_install': False, 'path': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/my_first_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_timer_pkg' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_timer_pkg' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_timer_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_timer_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_timer_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_timer_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_timer_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_timer_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'my_timer_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.192s] DEBUG:colcon.colcon_core.verb:Building package 'my_timer_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg', 'merge_install': False, 'path': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/my_timer_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rm_msgs' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rm_msgs' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.192s] DEBUG:colcon.colcon_core.verb:Building package 'rm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs', 'merge_install': False, 'path': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_tf_demo' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_tf_demo' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_tf_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_tf_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_tf_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_tf_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_tf_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_tf_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_tf_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'rm_tf_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo', 'merge_install': False, 'path': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_tf_demo', 'symlink_install': True, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_bridge' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_bridge' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'wheel_leg_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge', 'merge_install': False, 'path': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/wheel_leg_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_demo' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_demo' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'rm_gimbal_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo', 'merge_install': False, 'path': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_gimbal_demo', 'symlink_install': True, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_controller' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_controller' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'wheel_leg_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller', 'merge_install': False, 'path': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/wheel_leg_controller', 'symlink_install': True, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_sim' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_sim' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'wheel_leg_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'wheel_leg_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim', 'merge_install': False, 'path': '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/wheel_leg_sim', 'symlink_install': True, 'test_result_base': None}
+[0.193s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.195s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs' with build type 'ament_cmake'
+[0.195s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs'
+[0.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.201s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/my_first_pkg' with build type 'ament_python'
+[0.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_pkg', 'ament_prefix_path')
+[0.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/hook/ament_prefix_path.ps1'
+[0.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/hook/ament_prefix_path.dsv'
+[0.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/hook/ament_prefix_path.sh'
+[0.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.204s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/my_timer_pkg' with build type 'ament_python'
+[0.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_timer_pkg', 'ament_prefix_path')
+[0.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/my_timer_pkg/hook/ament_prefix_path.ps1'
+[0.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/my_timer_pkg/hook/ament_prefix_path.dsv'
+[0.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/my_timer_pkg/hook/ament_prefix_path.sh'
+[0.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.208s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_tf_demo' with build type 'ament_python'
+[0.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_tf_demo', 'ament_prefix_path')
+[0.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/rm_tf_demo/hook/ament_prefix_path.ps1'
+[0.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/rm_tf_demo/hook/ament_prefix_path.dsv'
+[0.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/rm_tf_demo/hook/ament_prefix_path.sh'
+[0.209s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.212s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/wheel_leg_bridge' with build type 'ament_python'
+[0.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_leg_bridge', 'ament_prefix_path')
+[0.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/hook/ament_prefix_path.ps1'
+[0.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/hook/ament_prefix_path.dsv'
+[0.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/hook/ament_prefix_path.sh'
+[0.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.214s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs
+[0.365s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/my_first_pkg'
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.523s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/my_timer_pkg'
+[0.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.664s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_tf_demo'
+[0.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.664s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.814s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/wheel_leg_bridge'
+[0.814s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.814s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.190s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload, easy_install, bdist_wheel, symlink_data, build_ext, register, install_scripts, dist_info, clean, install_headers, install, rotate, bdist_rpm, setopt, test, build_py, install_lib, develop, sdist, bdist_egg, saveopts, bdist, install_data, install_egg_info, editable_wheel, check, build_clib, build_scripts, alias, bdist_dumb, build, egg_info, upload_docs
+[1.210s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload, easy_install, bdist_wheel, symlink_data, build_ext, register, install_scripts, dist_info, clean, install_headers, install, rotate, bdist_rpm, setopt, test, build_py, install_lib, develop, sdist, bdist_egg, saveopts, bdist, install_data, install_egg_info, editable_wheel, check, build_clib, build_scripts, alias, bdist_dumb, build, egg_info, upload_docs
+[1.358s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload, easy_install, bdist_wheel, symlink_data, build_ext, register, install_scripts, dist_info, clean, install_headers, install, rotate, bdist_rpm, setopt, test, build_py, install_lib, develop, sdist, bdist_egg, saveopts, bdist, install_data, install_egg_info, editable_wheel, check, build_clib, build_scripts, alias, bdist_dumb, build, egg_info, upload_docs
+[1.360s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload, easy_install, bdist_wheel, symlink_data, build_ext, register, install_scripts, dist_info, clean, install_headers, install, rotate, bdist_rpm, setopt, test, build_py, install_lib, develop, sdist, bdist_egg, saveopts, bdist, install_data, install_egg_info, editable_wheel, check, build_clib, build_scripts, alias, bdist_dumb, build, egg_info, upload_docs
+[1.422s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-deps, --local-snapshots-ok, --upgrade, --install-dir, --find-links, --optimize, --prefix, --zip-ok, --no-user-cfg, --script-dir, --uninstall, --build-directory, --always-unzip, --verbose, --editable, --egg-path, --always-copy, --quiet, --exclude-scripts, --user, --index-url, --site-dirs, --record, --help, --allow-hosts, --version, --dry-run, --no-find-links, --multi-version
+[1.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/build --no-deps symlink_data
+[1.450s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-deps, --local-snapshots-ok, --upgrade, --install-dir, --find-links, --optimize, --prefix, --zip-ok, --no-user-cfg, --script-dir, --uninstall, --build-directory, --always-unzip, --verbose, --editable, --egg-path, --always-copy, --quiet, --exclude-scripts, --user, --index-url, --site-dirs, --record, --help, --allow-hosts, --version, --dry-run, --no-find-links, --multi-version
+[1.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/build --no-deps symlink_data
+[1.594s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-deps, --local-snapshots-ok, --upgrade, --install-dir, --find-links, --optimize, --prefix, --zip-ok, --no-user-cfg, --script-dir, --uninstall, --build-directory, --always-unzip, --verbose, --editable, --egg-path, --always-copy, --quiet, --exclude-scripts, --user, --index-url, --site-dirs, --record, --help, --allow-hosts, --version, --dry-run, --no-find-links, --multi-version
+[1.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/build --no-deps symlink_data
+[1.694s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-deps, --local-snapshots-ok, --upgrade, --install-dir, --find-links, --optimize, --prefix, --zip-ok, --no-user-cfg, --script-dir, --uninstall, --build-directory, --always-unzip, --verbose, --editable, --egg-path, --always-copy, --quiet, --exclude-scripts, --user, --index-url, --site-dirs, --record, --help, --allow-hosts, --version, --dry-run, --no-find-links, --multi-version
+[1.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/build --no-deps symlink_data
+[1.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_leg_bridge', 'pythonpath_develop')
+[1.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/share/wheel_leg_bridge/hook/pythonpath_develop.ps1'
+[1.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge' returned '0': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/build --no-deps symlink_data
+[1.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/share/wheel_leg_bridge/hook/pythonpath_develop.dsv'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/share/wheel_leg_bridge/hook/pythonpath_develop.sh'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge' for CMake module files
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge' for CMake config files
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/lib'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/bin'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/lib/pkgconfig/wheel_leg_bridge.pc'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/lib/python3.12/site-packages'
+[1.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_leg_bridge', 'pythonpath')
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/hook/pythonpath.ps1'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/hook/pythonpath.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/hook/pythonpath.sh'
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/bin'
+[1.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheel_leg_bridge)
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/package.ps1'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/package.dsv'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/package.sh'
+[1.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/package.bash'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/package.zsh'
+[1.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/colcon-core/packages/wheel_leg_bridge)
+[1.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_pkg', 'pythonpath_develop')
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/share/my_first_pkg/hook/pythonpath_develop.ps1'
+[1.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg' returned '0': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/build --no-deps symlink_data
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/share/my_first_pkg/hook/pythonpath_develop.dsv'
+[1.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/share/my_first_pkg/hook/pythonpath_develop.sh'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg' for CMake module files
+[1.919s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg' for CMake config files
+[1.919s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/lib'
+[1.919s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/bin'
+[1.919s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/lib/pkgconfig/my_first_pkg.pc'
+[1.920s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/lib/python3.12/site-packages'
+[1.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_pkg', 'pythonpath')
+[1.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/hook/pythonpath.ps1'
+[1.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/hook/pythonpath.dsv'
+[1.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/hook/pythonpath.sh'
+[1.921s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/bin'
+[1.921s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_pkg)
+[1.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/package.ps1'
+[1.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/package.dsv'
+[1.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/package.sh'
+[1.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/package.bash'
+[1.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/package.zsh'
+[1.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/colcon-core/packages/my_first_pkg)
+[1.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_tf_demo', 'pythonpath_develop')
+[1.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/share/rm_tf_demo/hook/pythonpath_develop.ps1'
+[1.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo' returned '0': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/build --no-deps symlink_data
+[1.935s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/share/rm_tf_demo/hook/pythonpath_develop.dsv'
+[1.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/share/rm_tf_demo/hook/pythonpath_develop.sh'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo' for CMake module files
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo' for CMake config files
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/lib'
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/bin'
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/lib/pkgconfig/rm_tf_demo.pc'
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/lib/python3.12/site-packages'
+[1.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_tf_demo', 'pythonpath')
+[1.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/rm_tf_demo/hook/pythonpath.ps1'
+[1.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/rm_tf_demo/hook/pythonpath.dsv'
+[1.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/rm_tf_demo/hook/pythonpath.sh'
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/bin'
+[1.938s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_tf_demo)
+[1.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/rm_tf_demo/package.ps1'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/rm_tf_demo/package.dsv'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/rm_tf_demo/package.sh'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/rm_tf_demo/package.bash'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/rm_tf_demo/package.zsh'
+[1.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/colcon-core/packages/rm_tf_demo)
+[2.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_timer_pkg', 'pythonpath_develop')
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/share/my_timer_pkg/hook/pythonpath_develop.ps1'
+[2.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg' returned '0': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/build --no-deps symlink_data
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/share/my_timer_pkg/hook/pythonpath_develop.dsv'
+[2.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/share/my_timer_pkg/hook/pythonpath_develop.sh'
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg' for CMake module files
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg' for CMake config files
+[2.089s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/lib'
+[2.089s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/bin'
+[2.089s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/lib/pkgconfig/my_timer_pkg.pc'
+[2.089s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/lib/python3.12/site-packages'
+[2.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_timer_pkg', 'pythonpath')
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/my_timer_pkg/hook/pythonpath.ps1'
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/my_timer_pkg/hook/pythonpath.dsv'
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/my_timer_pkg/hook/pythonpath.sh'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/bin'
+[2.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_timer_pkg)
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/my_timer_pkg/package.ps1'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/my_timer_pkg/package.dsv'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/my_timer_pkg/package.sh'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/my_timer_pkg/package.bash'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/my_timer_pkg/package.zsh'
+[2.091s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/colcon-core/packages/my_timer_pkg)
+[2.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs
+[2.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs -- -j12 -l12
+[6.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs -- -j12 -l12
+[6.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs
+[7.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_msgs)
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs' for CMake module files
+[7.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs
+[7.379s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs' for CMake config files
+[7.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_msgs', 'cmake_prefix_path')
+[7.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/cmake_prefix_path.ps1'
+[7.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/cmake_prefix_path.dsv'
+[7.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/cmake_prefix_path.sh'
+[7.382s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib'
+[7.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_msgs', 'ld_library_path_lib')
+[7.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/ld_library_path_lib.ps1'
+[7.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/ld_library_path_lib.dsv'
+[7.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/ld_library_path_lib.sh'
+[7.383s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/bin'
+[7.383s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/pkgconfig/rm_msgs.pc'
+[7.383s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages'
+[7.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_msgs', 'pythonpath')
+[7.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/pythonpath.ps1'
+[7.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/pythonpath.dsv'
+[7.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/pythonpath.sh'
+[7.385s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/bin'
+[7.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/package.ps1'
+[7.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/package.dsv'
+[7.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/package.sh'
+[7.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/package.bash'
+[7.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/package.zsh'
+[7.386s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/colcon-core/packages/rm_msgs)
+[7.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_msgs)
+[7.386s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs' for CMake module files
+[7.387s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs' for CMake config files
+[7.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_msgs', 'cmake_prefix_path')
+[7.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/cmake_prefix_path.ps1'
+[7.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/cmake_prefix_path.dsv'
+[7.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/cmake_prefix_path.sh'
+[7.388s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib'
+[7.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_msgs', 'ld_library_path_lib')
+[7.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/ld_library_path_lib.ps1'
+[7.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/ld_library_path_lib.dsv'
+[7.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/ld_library_path_lib.sh'
+[7.389s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/bin'
+[7.389s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/pkgconfig/rm_msgs.pc'
+[7.389s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages'
+[7.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_msgs', 'pythonpath')
+[7.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/pythonpath.ps1'
+[7.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/pythonpath.dsv'
+[7.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/hook/pythonpath.sh'
+[7.390s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/bin'
+[7.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/package.ps1'
+[7.390s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/package.dsv'
+[7.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/package.sh'
+[7.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/package.bash'
+[7.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/package.zsh'
+[7.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/colcon-core/packages/rm_msgs)
+[7.391s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_gimbal_demo' with build type 'ament_python'
+[7.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_gimbal_demo', 'ament_prefix_path')
+[7.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/hook/ament_prefix_path.ps1'
+[7.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/hook/ament_prefix_path.dsv'
+[7.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/hook/ament_prefix_path.sh'
+[7.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.394s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/wheel_leg_controller' with build type 'ament_python'
+[7.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_leg_controller', 'ament_prefix_path')
+[7.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/wheel_leg_controller/hook/ament_prefix_path.ps1'
+[7.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/wheel_leg_controller/hook/ament_prefix_path.dsv'
+[7.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/wheel_leg_controller/hook/ament_prefix_path.sh'
+[7.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.398s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/wheel_leg_sim' with build type 'ament_python'
+[7.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_leg_sim', 'ament_prefix_path')
+[7.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/hook/ament_prefix_path.ps1'
+[7.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/hook/ament_prefix_path.dsv'
+[7.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/hook/ament_prefix_path.sh'
+[7.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.532s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_gimbal_demo'
+[7.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.661s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/wheel_leg_controller'
+[7.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.790s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/wheel_leg_sim'
+[7.790s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.790s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.098s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload, easy_install, bdist_wheel, symlink_data, build_ext, register, install_scripts, dist_info, clean, install_headers, install, rotate, bdist_rpm, setopt, test, build_py, install_lib, develop, sdist, bdist_egg, saveopts, bdist, install_data, install_egg_info, editable_wheel, check, build_clib, build_scripts, alias, bdist_dumb, build, egg_info, upload_docs
+[8.099s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload, easy_install, bdist_wheel, symlink_data, build_ext, register, install_scripts, dist_info, clean, install_headers, install, rotate, bdist_rpm, setopt, test, build_py, install_lib, develop, sdist, bdist_egg, saveopts, bdist, install_data, install_egg_info, editable_wheel, check, build_clib, build_scripts, alias, bdist_dumb, build, egg_info, upload_docs
+[8.238s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload, easy_install, bdist_wheel, symlink_data, build_ext, register, install_scripts, dist_info, clean, install_headers, install, rotate, bdist_rpm, setopt, test, build_py, install_lib, develop, sdist, bdist_egg, saveopts, bdist, install_data, install_egg_info, editable_wheel, check, build_clib, build_scripts, alias, bdist_dumb, build, egg_info, upload_docs
+[8.294s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-deps, --local-snapshots-ok, --upgrade, --install-dir, --find-links, --optimize, --prefix, --zip-ok, --no-user-cfg, --script-dir, --uninstall, --build-directory, --always-unzip, --verbose, --editable, --egg-path, --always-copy, --quiet, --exclude-scripts, --user, --index-url, --site-dirs, --record, --help, --allow-hosts, --version, --dry-run, --no-find-links, --multi-version
+[8.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller': AMENT_PREFIX_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/lib/python3.12/site-packages:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller/build --no-deps symlink_data
+[8.302s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-deps, --local-snapshots-ok, --upgrade, --install-dir, --find-links, --optimize, --prefix, --zip-ok, --no-user-cfg, --script-dir, --uninstall, --build-directory, --always-unzip, --verbose, --editable, --egg-path, --always-copy, --quiet, --exclude-scripts, --user, --index-url, --site-dirs, --record, --help, --allow-hosts, --version, --dry-run, --no-find-links, --multi-version
+[8.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo': AMENT_PREFIX_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/lib/python3.12/site-packages:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo/build --no-deps symlink_data
+[8.443s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-deps, --local-snapshots-ok, --upgrade, --install-dir, --find-links, --optimize, --prefix, --zip-ok, --no-user-cfg, --script-dir, --uninstall, --build-directory, --always-unzip, --verbose, --editable, --egg-path, --always-copy, --quiet, --exclude-scripts, --user, --index-url, --site-dirs, --record, --help, --allow-hosts, --version, --dry-run, --no-find-links, --multi-version
+[8.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim': AMENT_PREFIX_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/lib/python3.12/site-packages:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim/build --no-deps symlink_data
+[8.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_gimbal_demo', 'pythonpath_develop')
+[8.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo' returned '0': AMENT_PREFIX_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/lib/python3.12/site-packages:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo/build --no-deps symlink_data
+[8.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo/share/rm_gimbal_demo/hook/pythonpath_develop.ps1'
+[8.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo/share/rm_gimbal_demo/hook/pythonpath_develop.dsv'
+[8.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo/share/rm_gimbal_demo/hook/pythonpath_develop.sh'
+[8.609s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo' for CMake module files
+[8.609s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo' for CMake config files
+[8.610s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/lib'
+[8.610s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/bin'
+[8.610s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/lib/pkgconfig/rm_gimbal_demo.pc'
+[8.610s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/lib/python3.12/site-packages'
+[8.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_gimbal_demo', 'pythonpath')
+[8.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/hook/pythonpath.ps1'
+[8.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/hook/pythonpath.dsv'
+[8.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/hook/pythonpath.sh'
+[8.612s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/bin'
+[8.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_gimbal_demo)
+[8.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/package.ps1'
+[8.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/package.dsv'
+[8.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/package.sh'
+[8.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/package.bash'
+[8.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/package.zsh'
+[8.617s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/colcon-core/packages/rm_gimbal_demo)
+[8.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_leg_controller', 'pythonpath_develop')
+[8.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller/share/wheel_leg_controller/hook/pythonpath_develop.ps1'
+[8.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller' returned '0': AMENT_PREFIX_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/lib/python3.12/site-packages:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller/build --no-deps symlink_data
+[8.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller/share/wheel_leg_controller/hook/pythonpath_develop.dsv'
+[8.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller/share/wheel_leg_controller/hook/pythonpath_develop.sh'
+[8.643s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller' for CMake module files
+[8.644s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller' for CMake config files
+[8.644s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/lib'
+[8.644s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/bin'
+[8.644s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/lib/pkgconfig/wheel_leg_controller.pc'
+[8.644s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/lib/python3.12/site-packages'
+[8.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_leg_controller', 'pythonpath')
+[8.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/wheel_leg_controller/hook/pythonpath.ps1'
+[8.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/wheel_leg_controller/hook/pythonpath.dsv'
+[8.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/wheel_leg_controller/hook/pythonpath.sh'
+[8.646s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/bin'
+[8.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheel_leg_controller)
+[8.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/wheel_leg_controller/package.ps1'
+[8.647s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/wheel_leg_controller/package.dsv'
+[8.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/wheel_leg_controller/package.sh'
+[8.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/wheel_leg_controller/package.bash'
+[8.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/wheel_leg_controller/package.zsh'
+[8.648s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/colcon-core/packages/wheel_leg_controller)
+[8.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_leg_sim', 'pythonpath_develop')
+[8.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim/share/wheel_leg_sim/hook/pythonpath_develop.ps1'
+[8.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim' returned '0': AMENT_PREFIX_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/lib/python3.12/site-packages:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim/build --no-deps symlink_data
+[8.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim/share/wheel_leg_sim/hook/pythonpath_develop.dsv'
+[8.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim/share/wheel_leg_sim/hook/pythonpath_develop.sh'
+[8.786s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim' for CMake module files
+[8.786s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim' for CMake config files
+[8.787s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/lib'
+[8.787s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/bin'
+[8.787s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/lib/pkgconfig/wheel_leg_sim.pc'
+[8.787s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/lib/python3.12/site-packages'
+[8.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_leg_sim', 'pythonpath')
+[8.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/hook/pythonpath.ps1'
+[8.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/hook/pythonpath.dsv'
+[8.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/hook/pythonpath.sh'
+[8.789s] Level 1:colcon.colcon_core.environment:checking '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/bin'
+[8.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheel_leg_sim)
+[8.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/package.ps1'
+[8.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/package.dsv'
+[8.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/package.sh'
+[8.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/package.bash'
+[8.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/package.zsh'
+[8.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/colcon-core/packages/wheel_leg_sim)
+[8.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.791s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.794s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[8.794s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.794s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.794s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[8.813s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/local_setup.ps1'
+[8.814s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/_local_setup_util_ps1.py'
+[8.816s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/setup.ps1'
+[8.816s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/local_setup.sh'
+[8.817s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/_local_setup_util_sh.py'
+[8.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/setup.sh'
+[8.818s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/local_setup.bash'
+[8.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/setup.bash'
+[8.819s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/local_setup.zsh'
+[8.820s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/setup.zsh'

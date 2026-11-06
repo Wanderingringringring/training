@@ -1,0 +1,2 @@
+[console_scripts]
+wheel_leg_sim = wheel_leg_sim.wheel_leg_sim:main

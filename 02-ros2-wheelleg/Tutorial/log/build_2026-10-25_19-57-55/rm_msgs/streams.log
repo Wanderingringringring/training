@@ -1,0 +1,298 @@
+[0.022s] Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs
+[0.473s] -- The C compiler identification is GNU 13.3.0
+[0.474s] -- The CXX compiler identification is GNU 13.3.0
+[0.474s] -- Detecting C compiler ABI info
+[0.474s] -- Detecting C compiler ABI info - done
+[0.474s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.474s] -- Detecting C compile features
+[0.474s] -- Detecting C compile features - done
+[0.474s] -- Detecting CXX compiler ABI info
+[0.474s] -- Detecting CXX compiler ABI info - done
+[0.474s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.474s] -- Detecting CXX compile features
+[0.474s] -- Detecting CXX compile features - done
+[0.474s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.527s] -- Found Python3: /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3 (found version "3.12.15") found components: Interpreter 
+[0.592s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.600s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.675s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.730s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.370s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.164s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.169s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.248s] -- Found PythonExtra: /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3  
+[2.597s] -- Found Python3: /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3 (found version "3.12.15") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.642s] -- Found Python3: /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3 (found version "3.12.15") found components: Interpreter 
+[2.651s] -- Configuring done (2.6s)
+[2.678s] -- Generating done (0.0s)
+[2.687s] -- Build files have been written to: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs
+[2.694s] Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs
+[2.695s] Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs -- -j12 -l12
+[2.741s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.741s] [  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.748s] [  3%] Built target ament_cmake_python_symlink_rm_msgs
+[2.909s] running egg_info
+[2.909s] creating rm_msgs.egg-info
+[2.917s] writing rm_msgs.egg-info/PKG-INFO
+[2.917s] writing dependency_links to rm_msgs.egg-info/dependency_links.txt
+[2.917s] writing top-level names to rm_msgs.egg-info/top_level.txt
+[2.917s] writing manifest file 'rm_msgs.egg-info/SOURCES.txt'
+[2.941s] reading manifest file 'rm_msgs.egg-info/SOURCES.txt'
+[2.942s] writing manifest file 'rm_msgs.egg-info/SOURCES.txt'
+[2.974s] [  3%] Built target ament_cmake_python_build_rm_msgs_egg
+[2.981s] [  3%] Built target rm_msgs__rosidl_generator_type_description
+[2.992s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.002s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.035s] [  6%] Built target rm_msgs__rs
+[3.329s] [  6%] Built target rm_msgs__cpp
+[3.385s] [  7%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rm_msgs/msg/detail/wheel_leg_cmd__description.c.o[0m
+[3.386s] [  9%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rm_msgs/msg/detail/gimbal_target__description.c.o[0m
+[3.386s] [ 10%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rm_msgs/msg/detail/chassis_cmd__functions.c.o[0m
+[3.386s] [ 15%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rm_msgs/srv/detail/set_gimbal_angle__functions.c.o[0m
+[3.386s] [ 15%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rm_msgs/srv/detail/set_gimbal_angle__description.c.o[0m
+[3.387s] [ 15%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rm_msgs/msg/detail/chassis_cmd__type_support.c.o[0m
+[3.387s] [ 18%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rm_msgs/msg/detail/gimbal_target__functions.c.o[0m
+[3.391s] [ 18%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rm_msgs/srv/detail/set_gimbal_angle__type_support.c.o[0m
+[3.391s] [ 20%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rm_msgs/msg/detail/wheel_leg_cmd__type_support.c.o[0m
+[3.391s] [ 21%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rm_msgs/msg/detail/gimbal_target__type_support.c.o[0m
+[3.391s] [ 23%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rm_msgs/msg/detail/wheel_leg_cmd__functions.c.o[0m
+[3.393s] [ 24%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rm_msgs/msg/detail/chassis_cmd__description.c.o[0m
+[3.474s] [ 26%] [32m[1mLinking C shared library librm_msgs__rosidl_generator_c.so[0m
+[3.504s] [ 26%] Built target rm_msgs__rosidl_generator_c
+[3.512s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.512s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.515s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.515s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.515s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.515s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.824s] [ 41%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_msgs/srv/set_gimbal_angle__type_support.cpp.o[0m
+[3.824s] [ 41%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_msgs/msg/wheel_leg_cmd__type_support.cpp.o[0m
+[3.825s] [ 41%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_msgs/msg/gimbal_target__type_support.cpp.o[0m
+[3.825s] [ 41%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_msgs/msg/chassis_cmd__type_support.cpp.o[0m
+[3.865s] [ 43%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_msgs/msg/detail/chassis_cmd__type_support.cpp.o[0m
+[3.867s] [ 44%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_msgs/srv/detail/set_gimbal_angle__type_support.cpp.o[0m
+[3.868s] [ 46%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_msgs/msg/detail/wheel_leg_cmd__type_support.cpp.o[0m
+[3.868s] [ 47%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_msgs/msg/detail/gimbal_target__type_support.cpp.o[0m
+[4.069s] [ 49%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_msgs/msg/gimbal_target__type_support.cpp.o[0m
+[4.152s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_msgs/msg/chassis_cmd__type_support.cpp.o[0m
+[4.226s] [ 52%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_msgs/msg/wheel_leg_cmd__type_support.cpp.o[0m
+[4.230s] [ 53%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_msgs/msg/detail/gimbal_target__type_support.c.o[0m
+[4.295s] [ 55%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_msgs/msg/detail/chassis_cmd__type_support.c.o[0m
+[4.295s] [ 56%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_msgs/srv/set_gimbal_angle__type_support.cpp.o[0m
+[4.298s] [ 58%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_msgs/msg/detail/dds_fastrtps/gimbal_target__type_support.cpp.o[0m
+[4.333s] [ 60%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_msgs/msg/detail/dds_fastrtps/chassis_cmd__type_support.cpp.o[0m
+[4.347s] [ 61%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_msgs/msg/detail/wheel_leg_cmd__type_support.c.o[0m
+[4.360s] [ 63%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_msgs/msg/detail/dds_fastrtps/wheel_leg_cmd__type_support.cpp.o[0m
+[4.376s] [ 64%] [32m[1mLinking CXX shared library librm_msgs__rosidl_typesupport_c.so[0m
+[4.407s] [ 66%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_msgs/srv/detail/set_gimbal_angle__type_support.c.o[0m
+[4.410s] [ 67%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_msgs/msg/detail/gimbal_target__type_support_c.cpp.o[0m
+[4.431s] [ 69%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_msgs/msg/detail/chassis_cmd__type_support_c.cpp.o[0m
+[4.448s] [ 70%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_msgs/msg/detail/wheel_leg_cmd__type_support_c.cpp.o[0m
+[4.449s] [ 72%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_msgs/srv/detail/dds_fastrtps/set_gimbal_angle__type_support.cpp.o[0m
+[4.459s] [ 72%] Built target rm_msgs__rosidl_typesupport_c
+[4.477s] [ 73%] [32mBuilding CXX object CMakeFiles/rm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_msgs/srv/detail/set_gimbal_angle__type_support_c.cpp.o[0m
+[4.482s] [ 75%] [32m[1mLinking C shared library librm_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.528s] [ 75%] Built target rm_msgs__rosidl_typesupport_introspection_c
+[4.596s] [ 76%] [32m[1mLinking CXX shared library librm_msgs__rosidl_typesupport_cpp.so[0m
+[4.676s] [ 78%] [32m[1mLinking CXX shared library librm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.782s] [ 78%] Built target rm_msgs__rosidl_typesupport_cpp
+[4.829s] [ 78%] Built target rm_msgs__rosidl_typesupport_introspection_cpp
+[5.231s] [ 80%] [32m[1mLinking CXX shared library librm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.294s] [ 80%] Built target rm_msgs__rosidl_typesupport_fastrtps_c
+[5.305s] [ 81%] [32m[1mLinking CXX shared library librm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.365s] [ 81%] Built target rm_msgs__rosidl_typesupport_fastrtps_cpp
+[5.385s] [ 81%] Built target rm_msgs
+[5.403s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.850s] [ 83%] Built target rm_msgs__py
+[5.869s] [ 84%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_py.dir/rosidl_generator_py/rm_msgs/msg/_wheel_leg_cmd_s.c.o[0m
+[5.870s] [ 87%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_py.dir/rosidl_generator_py/rm_msgs/msg/_gimbal_target_s.c.o[0m
+[5.870s] [ 87%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_py.dir/rosidl_generator_py/rm_msgs/msg/_chassis_cmd_s.c.o[0m
+[5.870s] [ 89%] [32mBuilding C object CMakeFiles/rm_msgs__rosidl_generator_py.dir/rosidl_generator_py/rm_msgs/srv/_set_gimbal_angle_s.c.o[0m
+[6.000s] [ 90%] [32m[1mLinking C shared library librm_msgs__rosidl_generator_py.so[0m
+[6.036s] [ 90%] Built target rm_msgs__rosidl_generator_py
+[6.054s] [ 92%] [32mBuilding C object CMakeFiles/rm_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rm_msgs/_rm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.055s] [ 95%] [32mBuilding C object CMakeFiles/rm_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rm_msgs/_rm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.055s] [ 95%] [32mBuilding C object CMakeFiles/rm_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/rm_msgs/_rm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.131s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/rm_msgs/rm_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[6.138s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/rm_msgs/rm_msgs_s__rosidl_typesupport_c.so[0m
+[6.162s] [100%] [32m[1mLinking C shared module rosidl_generator_py/rm_msgs/rm_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.162s] [100%] Built target rm_msgs_s__rosidl_typesupport_introspection_c
+[6.162s] [100%] Built target rm_msgs_s__rosidl_typesupport_c
+[6.192s] [100%] Built target rm_msgs_s__rosidl_typesupport_fastrtps_c
+[6.203s] Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs -- -j12 -l12
+[6.209s] Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs
+[6.215s] -- Install configuration: ""
+[6.215s] -- Execute custom install script
+[6.216s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/ament_index/resource_index/rosidl_interfaces/rm_msgs
+[6.224s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/msg/GimbalTarget.json
+[6.233s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/msg/ChassisCmd.json
+[6.239s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/msg/WheelLegCmd.json
+[6.246s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/srv/SetGimbalAngle.json
+[6.255s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/chassis_cmd.h
+[6.261s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/chassis_cmd__functions.h
+[6.272s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/chassis_cmd__struct.h
+[6.280s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/chassis_cmd__type_support.h
+[6.289s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/gimbal_target__functions.h
+[6.298s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/gimbal_target__struct.h
+[6.307s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/gimbal_target__type_support.h
+[6.315s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/wheel_leg_cmd__functions.h
+[6.323s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/wheel_leg_cmd__struct.h
+[6.331s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/wheel_leg_cmd__type_support.h
+[6.339s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/gimbal_target.h
+[6.345s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.354s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/wheel_leg_cmd.h
+[6.359s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/detail/set_gimbal_angle__functions.h
+[6.367s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/detail/set_gimbal_angle__struct.h
+[6.375s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/detail/set_gimbal_angle__type_support.h
+[6.381s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/set_gimbal_angle.h
+[6.390s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/environment/library_path.sh
+[6.397s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/environment/library_path.dsv
+[6.406s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/chassis_cmd__rosidl_typesupport_fastrtps_c.h
+[6.413s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/gimbal_target__rosidl_typesupport_fastrtps_c.h
+[6.421s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/wheel_leg_cmd__rosidl_typesupport_fastrtps_c.h
+[6.428s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.435s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/detail/set_gimbal_angle__rosidl_typesupport_fastrtps_c.h
+[6.442s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/chassis_cmd__rosidl_typesupport_introspection_c.h
+[6.447s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/gimbal_target__rosidl_typesupport_introspection_c.h
+[6.455s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/wheel_leg_cmd__rosidl_typesupport_introspection_c.h
+[6.462s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.469s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/detail/set_gimbal_angle__rosidl_typesupport_introspection_c.h
+[6.477s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/chassis_cmd.hpp
+[6.483s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/chassis_cmd__builder.hpp
+[6.491s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/chassis_cmd__struct.hpp
+[6.498s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/chassis_cmd__traits.hpp
+[6.505s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/chassis_cmd__type_support.hpp
+[6.512s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/gimbal_target__builder.hpp
+[6.519s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/gimbal_target__struct.hpp
+[6.526s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/gimbal_target__traits.hpp
+[6.535s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/gimbal_target__type_support.hpp
+[6.541s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/wheel_leg_cmd__builder.hpp
+[6.548s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/wheel_leg_cmd__struct.hpp
+[6.555s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/wheel_leg_cmd__traits.hpp
+[6.561s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/wheel_leg_cmd__type_support.hpp
+[6.569s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/gimbal_target.hpp
+[6.576s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.581s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/wheel_leg_cmd.hpp
+[6.589s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/detail/set_gimbal_angle__builder.hpp
+[6.594s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/detail/set_gimbal_angle__struct.hpp
+[6.602s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/detail/set_gimbal_angle__traits.hpp
+[6.607s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/detail/set_gimbal_angle__type_support.hpp
+[6.613s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/set_gimbal_angle.hpp
+[6.621s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/chassis_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[6.628s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/gimbal_target__rosidl_typesupport_fastrtps_cpp.hpp
+[6.636s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/wheel_leg_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[6.642s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.650s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/detail/set_gimbal_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[6.659s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/chassis_cmd__rosidl_typesupport_introspection_cpp.hpp
+[6.666s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/gimbal_target__rosidl_typesupport_introspection_cpp.hpp
+[6.674s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/msg/detail/wheel_leg_cmd__rosidl_typesupport_introspection_cpp.hpp
+[6.679s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/include/rm_msgs/rm_msgs/srv/detail/set_gimbal_angle__rosidl_typesupport_introspection_cpp.hpp
+[6.687s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/environment/pythonpath.sh
+[6.694s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/environment/pythonpath.dsv
+[6.703s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[6.709s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[6.716s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[6.723s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[6.729s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/__init__.py
+[6.738s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/_rm_msgs_s.ep.rosidl_typesupport_c.c
+[6.745s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/_rm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.753s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/_rm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.759s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/msg/__init__.py
+[6.765s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/msg/_chassis_cmd.py
+[6.773s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/msg/_chassis_cmd_s.c
+[6.780s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/msg/_gimbal_target.py
+[6.789s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/msg/_gimbal_target_s.c
+[6.795s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/msg/_wheel_leg_cmd.py
+[6.802s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/msg/_wheel_leg_cmd_s.c
+[6.808s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/rm_msgs_s__rosidl_typesupport_c.so
+[6.814s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/rm_msgs_s__rosidl_typesupport_fastrtps_c.so
+[6.822s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/rm_msgs_s__rosidl_typesupport_introspection_c.so
+[6.829s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/srv/__init__.py
+[6.838s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/srv/_set_gimbal_angle.py
+[6.845s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/srv/_set_gimbal_angle_s.c
+[6.853s] -- Up-to-date symlink: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/rm_msgs_s__rosidl_typesupport_fastrtps_c.so
+[6.853s] -- Up-to-date symlink: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/rm_msgs_s__rosidl_typesupport_introspection_c.so
+[6.854s] -- Up-to-date symlink: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/rm_msgs_s__rosidl_typesupport_c.so
+[6.854s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/rust/Cargo.toml
+[6.861s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/rust/build.rs
+[6.869s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/rust/src/lib.rs
+[6.877s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/rust/src/msg.rs
+[6.882s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/rust/src/msg/rmw.rs
+[6.891s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/rust/src/srv.rs
+[6.897s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/rust/src/srv/rmw.rs
+[6.905s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/msg/GimbalTarget.idl
+[6.911s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/msg/ChassisCmd.idl
+[6.919s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/msg/WheelLegCmd.idl
+[6.927s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/srv/SetGimbalAngle.idl
+[6.936s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/msg/GimbalTarget.msg
+[6.942s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/msg/ChassisCmd.msg
+[6.948s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/msg/WheelLegCmd.msg
+[6.955s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/srv/SetGimbalAngle.srv
+[6.961s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/ament_index/resource_index/package_run_dependencies/rm_msgs
+[6.969s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/ament_index/resource_index/parent_prefix_path/rm_msgs
+[6.979s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/environment/ament_prefix_path.sh
+[6.987s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/environment/ament_prefix_path.dsv
+[6.994s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/environment/path.sh
+[7.003s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/environment/path.dsv
+[7.009s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/local_setup.bash
+[7.016s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/local_setup.sh
+[7.025s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/local_setup.zsh
+[7.031s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/local_setup.dsv
+[7.039s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/package.dsv
+[7.045s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/ament_index/resource_index/packages/rm_msgs
+[7.054s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rosidl_cmake-extras.cmake
+[7.061s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.068s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.076s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.084s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.091s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.099s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.107s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[7.114s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rm_msgsConfig.cmake
+[7.123s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rm_msgsConfig-version.cmake
+[7.129s] -- Symlinking: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/package.xml
+[7.138s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_generator_c.so
+[7.139s] -- Set non-toolchain portion of runtime path of "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_generator_c.so" to ""
+[7.139s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_typesupport_fastrtps_c.so
+[7.139s] -- Set non-toolchain portion of runtime path of "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.139s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_typesupport_introspection_c.so
+[7.139s] -- Set non-toolchain portion of runtime path of "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.139s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_typesupport_c.so
+[7.139s] -- Set non-toolchain portion of runtime path of "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_typesupport_c.so" to ""
+[7.140s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.140s] -- Set non-toolchain portion of runtime path of "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.140s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_typesupport_introspection_cpp.so
+[7.140s] -- Set non-toolchain portion of runtime path of "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.140s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_typesupport_cpp.so
+[7.141s] -- Set non-toolchain portion of runtime path of "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_typesupport_cpp.so" to ""
+[7.175s] Listing '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs'...
+[7.175s] Compiling '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/__init__.py'...
+[7.175s] Listing '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/msg'...
+[7.175s] Compiling '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/msg/__init__.py'...
+[7.175s] Compiling '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/msg/_chassis_cmd.py'...
+[7.175s] Compiling '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/msg/_gimbal_target.py'...
+[7.175s] Compiling '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/msg/_wheel_leg_cmd.py'...
+[7.175s] Listing '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/srv'...
+[7.175s] Compiling '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/srv/__init__.py'...
+[7.175s] Compiling '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/python3.12/site-packages/rm_msgs/srv/_set_gimbal_angle.py'...
+[7.179s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_generator_py.so
+[7.179s] -- Set non-toolchain portion of runtime path of "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/lib/librm_msgs__rosidl_generator_py.so" to ""
+[7.179s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/export_rm_msgs__rosidl_generator_cExport.cmake
+[7.179s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/export_rm_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.179s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/export_rm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.180s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/export_rm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.180s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.180s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.180s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rm_msgs__rosidl_typesupport_cExport.cmake
+[7.180s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.180s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/export_rm_msgs__rosidl_generator_cppExport.cmake
+[7.180s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/export_rm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.180s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/export_rm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.180s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.180s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.180s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rm_msgs__rosidl_typesupport_cppExport.cmake
+[7.181s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/rm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.181s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/export_rm_msgs__rosidl_generator_pyExport.cmake
+[7.181s] -- Installing: /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_msgs/share/rm_msgs/cmake/export_rm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.183s] Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rm_msgs/srv/SetGimbalAngle_Request",
+      "fields": [
+        {
+          "name": "yaw",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "pitch",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rm_msgs/srv/SetGimbalAngle_Request",
+      "hash_string": "RIHS01_48a08fe3ef699e710d84429ce2a422313ad56eb1e0668ff97f317451d7fdd242"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating wheel_leg_sim.egg-info
+writing wheel_leg_sim.egg-info/PKG-INFO
+writing dependency_links to wheel_leg_sim.egg-info/dependency_links.txt
+writing entry points to wheel_leg_sim.egg-info/entry_points.txt
+writing requirements to wheel_leg_sim.egg-info/requires.txt
+writing top-level names to wheel_leg_sim.egg-info/top_level.txt
+writing manifest file 'wheel_leg_sim.egg-info/SOURCES.txt'
+reading manifest file 'wheel_leg_sim.egg-info/SOURCES.txt'
+writing manifest file 'wheel_leg_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/lib/python3.12/site-packages/wheel-leg-sim.egg-link (link to .)
+Installing wheel_leg_sim script to /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/lib/wheel_leg_sim
+
+Installed /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim
+running symlink_data
+creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/ament_index
+creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/ament_index/resource_index
+creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/ament_index/resource_index/packages
+symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim/resource/wheel_leg_sim -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/ament_index/resource_index/packages
+symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim/package.xml -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim
+creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/robots
+symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim/robots/robot.xml -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/robots
+symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_sim/robots/obstacles.xml -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_sim/share/wheel_leg_sim/robots

@@ -1,0 +1,27 @@
+[1.213s] Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/build --no-deps symlink_data
+[1.411s] running develop
+[1.488s] running egg_info
+[1.488s] creating wheel_leg_bridge.egg-info
+[1.496s] writing wheel_leg_bridge.egg-info/PKG-INFO
+[1.496s] writing dependency_links to wheel_leg_bridge.egg-info/dependency_links.txt
+[1.496s] writing entry points to wheel_leg_bridge.egg-info/entry_points.txt
+[1.496s] writing requirements to wheel_leg_bridge.egg-info/requires.txt
+[1.496s] writing top-level names to wheel_leg_bridge.egg-info/top_level.txt
+[1.497s] writing manifest file 'wheel_leg_bridge.egg-info/SOURCES.txt'
+[1.514s] reading manifest file 'wheel_leg_bridge.egg-info/SOURCES.txt'
+[1.514s] writing manifest file 'wheel_leg_bridge.egg-info/SOURCES.txt'
+[1.525s] running build_ext
+[1.525s] Creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/lib/python3.12/site-packages/wheel-leg-bridge.egg-link (link to .)
+[1.525s] Installing wheel_leg_bridge script to /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/lib/wheel_leg_bridge
+[1.526s] 
+[1.526s] Installed /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge
+[1.526s] running symlink_data
+[1.526s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/ament_index
+[1.526s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/ament_index/resource_index
+[1.526s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/ament_index/resource_index/packages
+[1.526s] symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/resource/wheel_leg_bridge -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/ament_index/resource_index/packages
+[1.526s] symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/package.xml -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge
+[1.526s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/robots
+[1.526s] symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/robots/robot.xml -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/robots
+[1.526s] symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/robots/obstacles.xml -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/share/wheel_leg_bridge/robots
+[1.566s] Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge' returned '0': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_bridge/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_bridge/build --no-deps symlink_data

@@ -1,0 +1,14 @@
+{
+  "package_name": "rm_msgs",
+  "output_dir": "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs/rosidl_generator_type_description/rm_msgs",
+  "idl_tuples": [
+    "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs/rosidl_adapter/rm_msgs:msg/GimbalTarget.idl",
+    "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs/rosidl_adapter/rm_msgs:msg/ChassisCmd.idl",
+    "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs/rosidl_adapter/rm_msgs:msg/WheelLegCmd.idl",
+    "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs/rosidl_adapter/rm_msgs:srv/SetGimbalAngle.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

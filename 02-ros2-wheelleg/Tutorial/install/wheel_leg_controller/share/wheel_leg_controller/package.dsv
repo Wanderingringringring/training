@@ -1,0 +1,9 @@
+source;share/wheel_leg_controller/hook/pythonpath.ps1
+source;share/wheel_leg_controller/hook/pythonpath.dsv
+source;share/wheel_leg_controller/hook/pythonpath.sh
+source;share/wheel_leg_controller/hook/ament_prefix_path.ps1
+source;share/wheel_leg_controller/hook/ament_prefix_path.dsv
+source;share/wheel_leg_controller/hook/ament_prefix_path.sh
+source;../../build/wheel_leg_controller/share/wheel_leg_controller/hook/pythonpath_develop.ps1
+source;../../build/wheel_leg_controller/share/wheel_leg_controller/hook/pythonpath_develop.dsv
+source;../../build/wheel_leg_controller/share/wheel_leg_controller/hook/pythonpath_develop.sh

@@ -1,0 +1,27 @@
+[1.250s] Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/build --no-deps symlink_data
+[1.566s] running develop
+[1.640s] running egg_info
+[1.641s] creating my_first_pkg.egg-info
+[1.649s] writing my_first_pkg.egg-info/PKG-INFO
+[1.649s] writing dependency_links to my_first_pkg.egg-info/dependency_links.txt
+[1.650s] writing entry points to my_first_pkg.egg-info/entry_points.txt
+[1.650s] writing requirements to my_first_pkg.egg-info/requires.txt
+[1.650s] writing top-level names to my_first_pkg.egg-info/top_level.txt
+[1.650s] writing manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+[1.666s] reading manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+[1.667s] writing manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+[1.675s] running build_ext
+[1.675s] Creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/lib/python3.12/site-packages/my-first-pkg.egg-link (link to .)
+[1.675s] Installing listener script to /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/lib/my_first_pkg
+[1.676s] Installing talker script to /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/lib/my_first_pkg
+[1.676s] 
+[1.677s] Installed /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg
+[1.677s] running symlink_data
+[1.677s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/ament_index
+[1.677s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/ament_index/resource_index
+[1.677s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/ament_index/resource_index/packages
+[1.677s] symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/resource/my_first_pkg -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/ament_index/resource_index/packages
+[1.677s] symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/package.xml -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg
+[1.677s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/launch
+[1.677s] symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/launch/talker_listener.launch.py -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/share/my_first_pkg/launch
+[1.715s] Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg' returned '0': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_first_pkg/build --no-deps symlink_data

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: my_first_pkg
+Version: 0.0.0
+Summary: 第一个 ROS2 Python 包：发布者(talker) 与订阅者(listener)
+Maintainer: RM Team
+Maintainer-email: rm@example.com
+License: Apache-2.0
+Requires-Dist: setuptools

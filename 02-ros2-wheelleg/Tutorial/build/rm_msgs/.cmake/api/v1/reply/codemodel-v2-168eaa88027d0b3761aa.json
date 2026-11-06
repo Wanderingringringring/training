@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-95951171b0eb71c7bc24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "rm_msgs__py",
+					"jsonFile" : "directory-rm_msgs__py-67c47552d0881d337ad6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs/rm_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "rm_msgs__rs",
+					"jsonFile" : "directory-rm_msgs__rs-0a26c75dff342b88516d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs/rm_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "rm_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rm_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rm_msgs_egg-119d5f2de5181f518728.json",
+					"name" : "ament_cmake_python_build_rm_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_rm_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_rm_msgs-0bb8081bc3cb50d8fa24.json",
+					"name" : "ament_cmake_python_symlink_rm_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs-0aa680d77a52902a7661.json",
+					"name" : "rm_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs__cpp-9c8cf70a235ad948646c.json",
+					"name" : "rm_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rm_msgs__py::@c5203d0396d3553aedeb",
+					"jsonFile" : "target-rm_msgs__py-c3c39636a7455ef6a007.json",
+					"name" : "rm_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs__rosidl_generator_c-4e071c45ab557826e25b.json",
+					"name" : "rm_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs__rosidl_generator_py-26697eb2b49913643833.json",
+					"name" : "rm_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs__rosidl_generator_type_description-ffbb1d7b14b4e99ca224.json",
+					"name" : "rm_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs__rosidl_typesupport_c-4865d28233b75d62b499.json",
+					"name" : "rm_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs__rosidl_typesupport_cpp-d3a3030a406ab7a915be.json",
+					"name" : "rm_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs__rosidl_typesupport_fastrtps_c-341e5f04c75e3a4594c4.json",
+					"name" : "rm_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs__rosidl_typesupport_fastrtps_cpp-752fc362fb08f273fe60.json",
+					"name" : "rm_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs__rosidl_typesupport_introspection_c-c1fce8b69a1dac8cb7db.json",
+					"name" : "rm_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs__rosidl_typesupport_introspection_cpp-aa9eb0dac030f45939ae.json",
+					"name" : "rm_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rm_msgs__rs::@855f36cf6e5aedf4bff6",
+					"jsonFile" : "target-rm_msgs__rs-fd26028fa8dff3aa601f.json",
+					"name" : "rm_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs_s__rosidl_typesupport_c-07c19a155cd979ec8ebf.json",
+					"name" : "rm_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs_s__rosidl_typesupport_fastrtps_c-babe8c580f7be5e94620.json",
+					"name" : "rm_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs_s__rosidl_typesupport_introspection_c-045172baecbb772e6e5b.json",
+					"name" : "rm_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_msgs_uninstall-d234cea986d078f53946.json",
+					"name" : "rm_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d5bab156b50f55c88544.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs",
+		"source" : "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/ros2_ws/src/rm_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: wheel_leg_sim
+Version: 0.0.0
+Summary: 轮腿机器人 MuJoCo 仿真节点（纯仿真，不含任何控制律）
+Maintainer: RM Team
+Maintainer-email: rm@example.com
+License: Apache-2.0
+Requires-Dist: setuptools

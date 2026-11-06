@@ -1,0 +1,2 @@
+[console_scripts]
+wheel_leg_bridge = wheel_leg_bridge.wheel_leg_bridge:main

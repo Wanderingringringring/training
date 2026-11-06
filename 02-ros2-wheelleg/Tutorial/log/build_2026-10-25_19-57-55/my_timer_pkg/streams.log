@@ -1,0 +1,24 @@
+[1.492s] Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/build --no-deps symlink_data
+[1.761s] running develop
+[1.820s] running egg_info
+[1.820s] creating my_timer_pkg.egg-info
+[1.828s] writing my_timer_pkg.egg-info/PKG-INFO
+[1.829s] writing dependency_links to my_timer_pkg.egg-info/dependency_links.txt
+[1.829s] writing entry points to my_timer_pkg.egg-info/entry_points.txt
+[1.829s] writing requirements to my_timer_pkg.egg-info/requires.txt
+[1.829s] writing top-level names to my_timer_pkg.egg-info/top_level.txt
+[1.829s] writing manifest file 'my_timer_pkg.egg-info/SOURCES.txt'
+[1.845s] reading manifest file 'my_timer_pkg.egg-info/SOURCES.txt'
+[1.845s] writing manifest file 'my_timer_pkg.egg-info/SOURCES.txt'
+[1.853s] running build_ext
+[1.853s] Creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/lib/python3.12/site-packages/my-timer-pkg.egg-link (link to .)
+[1.854s] Installing bomb script to /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/lib/my_timer_pkg
+[1.854s] 
+[1.854s] Installed /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg
+[1.854s] running symlink_data
+[1.854s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/ament_index
+[1.854s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/ament_index/resource_index
+[1.854s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/ament_index/resource_index/packages
+[1.854s] symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/resource/my_timer_pkg -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/ament_index/resource_index/packages
+[1.854s] symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/package.xml -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/share/my_timer_pkg
+[1.882s] Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg' returned '0': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/my_timer_pkg/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/my_timer_pkg/build --no-deps symlink_data

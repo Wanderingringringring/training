@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating rm_gimbal_demo.egg-info
+writing rm_gimbal_demo.egg-info/PKG-INFO
+writing dependency_links to rm_gimbal_demo.egg-info/dependency_links.txt
+writing entry points to rm_gimbal_demo.egg-info/entry_points.txt
+writing requirements to rm_gimbal_demo.egg-info/requires.txt
+writing top-level names to rm_gimbal_demo.egg-info/top_level.txt
+writing manifest file 'rm_gimbal_demo.egg-info/SOURCES.txt'
+reading manifest file 'rm_gimbal_demo.egg-info/SOURCES.txt'
+writing manifest file 'rm_gimbal_demo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/lib/python3.12/site-packages/rm-gimbal-demo.egg-link (link to .)
+Installing gimbal_client script to /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/lib/rm_gimbal_demo
+Installing gimbal_server script to /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/lib/rm_gimbal_demo
+
+Installed /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo
+running symlink_data
+creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/ament_index
+creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/ament_index/resource_index
+creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/ament_index/resource_index/packages
+symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo/resource/rm_gimbal_demo -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/ament_index/resource_index/packages
+symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo/package.xml -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo
+creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/launch
+symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_gimbal_demo/launch/gimbal.launch.py -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_gimbal_demo/share/rm_gimbal_demo/launch

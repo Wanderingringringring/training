@@ -1,0 +1,25 @@
+[1.389s] Invoking command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/build --no-deps symlink_data
+[1.583s] running develop
+[1.649s] running egg_info
+[1.649s] creating rm_tf_demo.egg-info
+[1.658s] writing rm_tf_demo.egg-info/PKG-INFO
+[1.658s] writing dependency_links to rm_tf_demo.egg-info/dependency_links.txt
+[1.658s] writing entry points to rm_tf_demo.egg-info/entry_points.txt
+[1.658s] writing requirements to rm_tf_demo.egg-info/requires.txt
+[1.658s] writing top-level names to rm_tf_demo.egg-info/top_level.txt
+[1.658s] writing manifest file 'rm_tf_demo.egg-info/SOURCES.txt'
+[1.676s] reading manifest file 'rm_tf_demo.egg-info/SOURCES.txt'
+[1.677s] writing manifest file 'rm_tf_demo.egg-info/SOURCES.txt'
+[1.686s] running build_ext
+[1.686s] Creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/lib/python3.12/site-packages/rm-tf-demo.egg-link (link to .)
+[1.687s] Installing tf_broadcaster script to /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/lib/rm_tf_demo
+[1.688s] Installing tf_listener script to /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/lib/rm_tf_demo
+[1.688s] 
+[1.688s] Installed /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo
+[1.688s] running symlink_data
+[1.689s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/ament_index
+[1.689s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/ament_index/resource_index
+[1.689s] creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/ament_index/resource_index/packages
+[1.689s] symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/resource/rm_tf_demo -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/ament_index/resource_index/packages
+[1.689s] symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/package.xml -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/share/rm_tf_demo
+[1.726s] Invoked command in '/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo' returned '0': CONDA_PROMPT_MODIFIER=(rm_ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/prefix_override:/home/venom-songyixi/miniforge3/envs/rm_ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/rm_tf_demo/lib/python3.12/site-packages:${PYTHONPATH} /home/venom-songyixi/miniforge3/envs/rm_ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_tf_demo/build --no-deps symlink_data

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rm_tf_demo
+Version: 0.0.0
+Summary: TF2 坐标变换示例：底盘/云台/相机坐标系链
+Maintainer: RM Team
+Maintainer-email: rm@example.com
+License: Apache-2.0
+Requires-Dist: setuptools

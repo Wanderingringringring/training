@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/rm_msgs/rosidl_generator_py/rm_msgs/rm_msgs_s__rosidl_typesupport_c.so" "TARGETS" "rm_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/rm_msgs")

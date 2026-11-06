@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+launch/gimbal.launch.py
+resource/rm_gimbal_demo
+rm_gimbal_demo/__init__.py
+rm_gimbal_demo/gimbal_client.py
+rm_gimbal_demo/gimbal_server.py
+rm_gimbal_demo.egg-info/PKG-INFO
+rm_gimbal_demo.egg-info/SOURCES.txt
+rm_gimbal_demo.egg-info/dependency_links.txt
+rm_gimbal_demo.egg-info/entry_points.txt
+rm_gimbal_demo.egg-info/requires.txt
+rm_gimbal_demo.egg-info/top_level.txt
+rm_gimbal_demo.egg-info/zip-safe

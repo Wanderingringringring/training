@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating wheel_leg_controller.egg-info
+writing wheel_leg_controller.egg-info/PKG-INFO
+writing dependency_links to wheel_leg_controller.egg-info/dependency_links.txt
+writing entry points to wheel_leg_controller.egg-info/entry_points.txt
+writing requirements to wheel_leg_controller.egg-info/requires.txt
+writing top-level names to wheel_leg_controller.egg-info/top_level.txt
+writing manifest file 'wheel_leg_controller.egg-info/SOURCES.txt'
+reading manifest file 'wheel_leg_controller.egg-info/SOURCES.txt'
+writing manifest file 'wheel_leg_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/lib/python3.12/site-packages/wheel-leg-controller.egg-link (link to .)
+Installing wheel_leg_controller script to /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/lib/wheel_leg_controller
+
+Installed /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller
+running symlink_data
+creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/ament_index
+creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/ament_index/resource_index
+creating /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/ament_index/resource_index/packages
+symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller/resource/wheel_leg_controller -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/ament_index/resource_index/packages
+symbolically linking /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/build/wheel_leg_controller/package.xml -> /home/venom-songyixi/venom_cpp_basics/training/02-ros2-wheelleg/Tutorial/install/wheel_leg_controller/share/wheel_leg_controller

@@ -1,0 +1,2 @@
+[console_scripts]
+bomb = my_timer_pkg.bomb:main
