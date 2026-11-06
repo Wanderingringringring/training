@@ -56,7 +56,7 @@ class WheelLegNode(Node):
         self.target_length = 0.12
 
         self.last_time = self.get_clock().now()
-        self.get_logger().info("原版复刻代码已启动！")
+        self.get_logger().info("Start")
 
     def cmd_vel_cb(self, msg):
         self.target_v = msg.linear.x
@@ -72,7 +72,7 @@ class WheelLegNode(Node):
         cosr_cosp = 1 - 2 * (q.x * q.x + q.y * q.y)
         roll_raw = math.atan2(sinr_cosp, cosr_cosp)
 
-        # 🚨【符号注意】老师原版对 IMU 姿态做了取反，这极其关键！
+        #
         self.pitch = -pitch_raw
         self.roll = -roll_raw
         self.gyro_pitch = -msg.angular_velocity.y
@@ -93,14 +93,14 @@ class WheelLegNode(Node):
             current_roll=self.roll, target_roll=0.0, base_length=self.target_length
         )
 
-        # 🚨【符号注意】共模计算，老师原版是 左减右
+        #
         common_motor_speed = (motor_speed_left - motor_speed_right) / 2.0
         common_motor_pos = (motor_pos_left - motor_pos_right) / 2.0
 
-        # 防溜车逻辑（原版逻辑）
+        # 防溜车逻辑
         current_v = self.target_v
         self.lqr_l.x_b_set = common_motor_pos * self.wheel_radius
-        self.lqr_r.x_b_set = -(common_motor_pos * self.wheel_radius) # 🚨【符号注意】右腿目标位移取反
+        self.lqr_r.x_b_set = -(common_motor_pos * self.wheel_radius) # 
         self.lqr_l.v_set = current_v
         self.lqr_r.v_set = current_v
 
@@ -109,7 +109,7 @@ class WheelLegNode(Node):
         # =====================================================================
         self.vmc_l.forward_kinematics_cal(1, motor1_angle_l, motor2_angle_l, self.pitch, self.gyro_pitch)
 
-        # 🚨【符号注意】左腿 LQR 更新，共模输入是正的
+        # 
         self.lqr_l.states_update(1, self.vmc_l, self.pitch, self.gyro_pitch, common_motor_pos, common_motor_speed, self.wheel_radius)
         self.lqr_l.calc_k_matrix_from_poly(self.vmc_l.L_0)
 
@@ -132,7 +132,7 @@ class WheelLegNode(Node):
         # =====================================================================
         self.vmc_r.forward_kinematics_cal(0, motor1_angle_r, motor2_angle_r, self.pitch, self.gyro_pitch)
 
-        # 🚨【符号注意】右腿 LQR 更新，老师原版共模输入必须取反！！！
+        # 
         self.lqr_r.states_update(0, self.vmc_r, self.pitch, self.gyro_pitch, -common_motor_pos, -common_motor_speed, self.wheel_radius)
         self.lqr_r.calc_k_matrix_from_poly(self.vmc_r.L_0)
 
@@ -155,13 +155,13 @@ class WheelLegNode(Node):
         # =====================================================================
         cmd = WheelLegCmd()
 
-        # 🚨【符号注意】老师原版：左腿 VMC 力矩加了负号，右腿没加！
+        # 
         cmd.right_phi1 = max(-6.0, min(6.0, torque_set_right_0))
         cmd.right_phi4 = max(-6.0, min(6.0, torque_set_right_1))
         cmd.left_phi1  = max(-6.0, min(6.0, -torque_set_left_0))   # 左腿加了负号！
         cmd.left_phi4  = max(-6.0, min(6.0, -torque_set_left_1))   # 左腿加了负号！
 
-        # 🚨【符号注意】轮子力矩：左轮加了负号，右轮没加！
+        #
         cmd.right_wheel = max(-2.0, min(2.0, wheel_T_r))
         cmd.left_wheel  = max(-2.0, min(2.0, -wheel_T_l))          # 左轮加了负号！
 
